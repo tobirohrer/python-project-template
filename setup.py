@@ -13,5 +13,10 @@ setup(name='sample_package',
       # to the `requirements.txt`.
       install_requires=[
             "numpy"
-      ]
+      ],
+      extras_require={
+            "docs": [
+                  "sphinx"
+            ]
+      }
      )
