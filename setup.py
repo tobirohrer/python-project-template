@@ -17,6 +17,9 @@ setup(name='sample_package',
       extras_require={
             "docs": [
                   "sphinx"
+            ],
+            "tests": [
+                  "pytest"
             ]
       }
      )
