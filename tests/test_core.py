@@ -11,13 +11,13 @@ def test_algorithm_class():
     assert result == 3
 
 
+"""
+And an example of a test which will fail. Uncomment and run `make test` to see it fail.
 def test_2_algorithm_class():
-    """
-    And an example of a test which will fail.
-    """
     algo = Algorithm(parameter_a=1)
     result = algo.calc(parameter_b=2)
     assert result == 4
+"""
 
 
 @pytest.mark.parametrize("parameter_b, expected_result", [(1, 2), (2, 3)])
