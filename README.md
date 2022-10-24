@@ -19,8 +19,12 @@ This repository serves as a template for developing python packages. Thereby thi
 
 ### Documentation
 
-[Sphinx](https://www.sphinx-doc.org/) is used to document the code. 
+[Sphinx](https://www.sphinx-doc.org/) is used to document the code. The documentation was created by running `sphinx-quickstart` as explained in the [tutorial](https://www.sphinx-doc.org/en/master/tutorial/getting-started.html). 
+
+You can build the documentation locally, by running `make doc` in the project root (or you run `make html` in the `/docs` subfolder).
+
+After building, the documentation is available as html in the folder `./docs/build/html`. Open the `index.html` file (i.e. in your browser) to see the documentation.
 
 ### Testing
 
-[pytest](https://docs.pytest.org/) is used for testing.
+[pytest](https://docs.pytest.org/) is used for testing. You can run the tests locally, by running `make test` in the project root (or you run `pytest ./tests`).
