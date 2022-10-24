@@ -10,6 +10,7 @@ This repository serves as a template for developing python packages. Thereby thi
 1. clone it to your local filesystem: `git clone git@github.com:tobirohrer/python-project-template.git` (depending on your needs, you can also [fork](https://github.com/tobirohrer/python-project-template/fork) the repo or [create your own repo based on this one](https://github.com/tobirohrer/python-project-template/generate))		
 2. cd into the cloned repository: `cd python-project-template`
 3. optional:
+
 	4. create new python environment: `conda create -n <env_name> python=3.9`
 	5. activate new python environment: `conda activate <env_name>`
 6. install the package by: `pip install -e .[docs,tests]` (If you don´t want to run tests or build the sphinx documentation locally, you can omit the `[docs,tests]` parameter)
@@ -28,3 +29,4 @@ After building, the documentation is available as html in the folder `./docs/bui
 ### Testing
 
 [pytest](https://docs.pytest.org/) is used for testing. You can run the tests locally, by running `make test` in the project root (or you run `pytest ./tests`).
+
