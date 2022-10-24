@@ -20,11 +20,14 @@ This repository serves as a template for developing python packages. Thereby thi
 
 ### Documentation
 
-[Sphinx](https://www.sphinx-doc.org/) is used to document the code. The documentation was created by running `sphinx-quickstart` as explained in the [tutorial](https://www.sphinx-doc.org/en/master/tutorial/getting-started.html). 
+[![Documentation Status](https://readthedocs.org/projects/python-project-exsample/badge/?version=latest)](https://python-project-exsample.readthedocs.io/en/latest/?badge=latest)
 
-You can build the documentation locally, by running `make doc` in the project root (or you run `make html` in the `/docs` subfolder).
+[Sphinx](https://www.sphinx-doc.org/) is used to create the documentation and [Read the Docs](https://readthedocs.org/) to publish it. The documentation was created mainly by running `sphinx-quickstart` as explained in the [tutorial](https://www.sphinx-doc.org/en/master/tutorial/getting-started.html). 
 
-After building, the documentation is available as html in the folder `./docs/build/html`. Open the `index.html` file (i.e. in your browser) to see the documentation.
+To see the documentation, you can either:
+
+- Build and open the documentation locally: By running `make doc` in the project root (or run `make html` in the `/docs` subfolder). After building, the documentation is available as html in the folder `./docs/build/html`. Open the `index.html` file (i.e. in your browser) to see the documentation.
+- Or open the documentation live on [https://python-project-exsample.readthedocs.io/en/latest/](https://python-project-exsample.readthedocs.io/en/latest/).
 
 ### Testing
 
