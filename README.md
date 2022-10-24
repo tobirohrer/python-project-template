@@ -1,5 +1,7 @@
 # A Sample Python Project
 
+[![Documentation Status](https://readthedocs.org/projects/python-project-exsample/badge/?version=latest)](https://python-project-exsample.readthedocs.io/en/latest/?badge=latest)
+
 This repository serves as a template for developing python packages. Thereby this repo should mainly serve two purposes:
 
 1. It should serve as an example for people who are new to python
@@ -20,8 +22,6 @@ This repository serves as a template for developing python packages. Thereby thi
 
 ### Documentation
 
-[![Documentation Status](https://readthedocs.org/projects/python-project-exsample/badge/?version=latest)](https://python-project-exsample.readthedocs.io/en/latest/?badge=latest)
-
 [Sphinx](https://www.sphinx-doc.org/) is used to create the documentation and [Read the Docs](https://readthedocs.org/) to publish it. The documentation was created mainly by running `sphinx-quickstart` as explained in the [tutorial](https://www.sphinx-doc.org/en/master/tutorial/getting-started.html). 
 
 To see the documentation, you can either:
@@ -32,4 +32,8 @@ To see the documentation, you can either:
 ### Testing
 
 [pytest](https://docs.pytest.org/) is used for testing. You can run the tests locally, by running `make test` in the project root (or you run `pytest ./tests`).
+
+### Continuous Integration
+
+GitHub Actions are used to automatically test the package whenever code is pushed to the master branch. The configuration can be found in `/.github/workflows/test.yml`.
 
