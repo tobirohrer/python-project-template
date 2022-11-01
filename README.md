@@ -37,3 +37,7 @@ To see the documentation, you can either:
 
 GitHub Actions are used to automatically test the package whenever code is pushed to the master branch. The configuration can be found in `/.github/workflows/test.yml`.
 
+### Git Issue Forms
+
+Issue forms provide a structured way of submitting issues to a git repo. You can see the issue form in action by creating an [issue](https://github.com/tobirohrer/python-project-template/issues) in this repo. You can find more information about issue forms [here](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository#creating-issue-forms). The configuration of the issue forms in this repo can be found in `/.github/ISSUE_TEMPLATE/`.
+
